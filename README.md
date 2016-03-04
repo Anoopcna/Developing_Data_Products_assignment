@@ -7,7 +7,7 @@ server.R
 README.md
 Instructions
 
-1)Clone the code using 'git clone https://github.com/rwstang/Developing-Data-Products-Assignment.git YOURDIRECTORY'
+1)Clone the code using 'git clone https://github.com/Anoopcna/Developing_Data_Products_assignment.git YOURDIRECTORY'
 
 2)Load your RStudio
 
