@@ -1,0 +1,79 @@
+---
+title       : Property Hunter
+subtitle    : 
+author      : 
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+<P><font size=20><B>Purpose of This Project</B></font></P>
+
+<P>&nbsp;</P>
+
+<P>This application is for property investors to calculate the rental yield of a property and estimate the cashflow of owning the property. Your real estate agent and mortgage broker will be able to help you with the numbers.</P>
+
+--- .class #id 
+
+<P><font size=20><B>Inputted Values in the Application</B></font></P>
+<P><li>Price($)
+  <li>Weekly Rent($)
+  <li>Weekly Repayments($)
+  <li>Strata ($ per quarter)
+  <li>Water ($ per quarter)
+  <li>Management Fees ($ per week)
+  </P>
+
+--- .class #id 
+  
+  <P><font size=20><B>Outputed Values in the Application</B></font></P>
+  <P><li>Rental Yield (%)
+  <li>Cashflow Per Week
+  <li>Cashflow Per Year
+  </P>
+
+--- .class #id 
+
+ <P><font size=20><B>Packages need to run this App.</B></font></P>
+    
+
+```{r}
+#To have atleast one embedded code of R
+library(devtools)
+library(knitr)
+library(slidify)
+library(slidifyLibraries)
+library(shiny)
+```
+
+--- .class #id 
+
+ <P><font size=20><B>Conclusion</B></font></P>  
+ 
+ <P>&nbsp;</P>
+ 
+ <P><font size=5>Hopefully the App ran well and you Enjoyed the Property Hunter.</font></P>
+ 
+ <P>&nbsp;</P>
+ 
+ <P><font size=5>Wish you all the very best!!!!</font></P>
+    
+    
+    
+    
+    
+    
+    
+ 
+  
+
+
+
+
+
+
+
+
